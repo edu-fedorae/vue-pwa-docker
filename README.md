@@ -15,5 +15,8 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Docker build
+docker build -t vue-pwa-docker
+
+### Docker run
+docker run  -d -p 8080:8080 vue-pwa-docker
